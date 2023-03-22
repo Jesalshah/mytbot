@@ -33,7 +33,7 @@ import streamlit as st
 _emp = st.empty()
 text = _emp.text_input("Enter Something here! ")
 if text:
-    index = GPTSimpleVectorIndex.load_from_disk('D://Trainingbot//index.json')
+    index = GPTSimpleVectorIndex.load_from_disk('index.json')
     response = index.query(text, response_mode="compact")
     st.write(response.response)
 
