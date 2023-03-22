@@ -15,7 +15,7 @@ import os
 # In[ ]:
 
 
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = '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'
 
 
 # In[ ]:
