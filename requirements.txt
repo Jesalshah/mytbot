@@ -1,0 +1,4 @@
+gpt-index==0.4.14
+langchain==0.0.94
+openai==0.26.5
+streamlit==1.19.0
